@@ -3,6 +3,8 @@ import top from "./assets/corner-top.svg"
 import bottom from "./assets/corner-bottom.svg"
 import smalltop from "./assets/small-corner-top.svg"
 import logo from "./assets/logo.svg"
+import 'animate.css';
+import StarField from './StarField'
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
 
   return (
     <div className='app'>
+      <StarField />
        <div className='wrapper'>
         <img className='corner top' src={top} alt=''/>
         <img className='corner bottom' src={bottom} alt='' />
@@ -57,7 +60,7 @@ function App() {
                 </a>
                 <a href='/'>
                   <div className='project-item'>
-                    <h4>First Projects</h4>
+                    <h4>First Projects jkkjbvjklvja</h4>
                   </div>
                 </a>
                 <a href='/'>
