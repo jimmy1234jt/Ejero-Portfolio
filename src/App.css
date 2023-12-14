@@ -16,6 +16,7 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
     min-width: 320px;
+    overflow: hidden;
     
 }
 
