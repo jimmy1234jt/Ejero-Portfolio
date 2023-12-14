@@ -11,8 +11,9 @@ function App() {
   const encodedEmail = encodeURIComponent(email);
 
   return (
-    <div className='app'>
+    <>
       <StarField />
+      <div className='app'>
        <div className='wrapper'>
         <img className='corner top' src={top} alt=''/>
         <img className='corner bottom' src={bottom} alt='' />
@@ -49,10 +50,7 @@ function App() {
           <div className='about'>
             <h1>Welcome</h1>
             <div className='about-text'>
-              <p>My name is <span>Ejero Promise Odafewomoni</span>, i am Passionate about bringing digital ideas to life. I am a dedicated <span>frontend developer</span> with a focus on creating seamless and visually appealing user experiences. My expertise lies in leveraging the power of <span>React.js</span>, <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span> to build <span>responsive</span> and <span>dynamic</span> web applications.</p>
-              <p>I believe that effective communication is the cornerstone of successful development projects. My ability to collaborate seamlessly with designers, backend developers, and other stakeholders ensures a <span>smooth workflow</span> and the delivery of <span>high-quality</span> results.</p>
-              <p>In the fast-paced world of frontend development, I am <span>committed</span> to staying ahead of the curve. I actively seek opportunities to expand my skill set and stay informed about the latest industry trends and best practices.</p>
-              <p>As a frontend developer, my goal is to not only meet but exceed user expectations through innovative and user-centric design. With a foundation built on React, HTML, CSS, and JavaScript, I am excited to take on new challenges and contribute to the ever-evolving landscape of web development.</p>
+              <p>My name is <span>Ejero Promise Odafewomoni</span>. I am a <span>frontend developer</span> based in Nigeria with a focus on creating seamless and visually appealing user experiences. My expertise lies in leveraging the power of <span>React.js</span>, <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span> to build <span>responsive</span> and <span>dynamic</span> web applications.</p>
             </div>
           </div>
           <div className='project-wrapper'>
@@ -95,6 +93,7 @@ function App() {
         </div>
        </div>
     </div>
+    </>
   )
 }
 

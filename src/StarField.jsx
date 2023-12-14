@@ -7,7 +7,7 @@ const StarFieldContainer = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   pointer-events: none;
   z-index: 1;
@@ -20,7 +20,6 @@ const Star = styled.div`
   background-color: #a21dd1;
   opacity: 0.8;
   pointer-events: none;
-  filter: blur(1px); /* Adjust the blur value as needed */
 `;
 
 const StarField = () => {
@@ -29,7 +28,7 @@ const StarField = () => {
   useEffect(() => {
     const generateStars = () => {
       const newStars = [];
-      for (let i = 0; i < 200; i++) {
+      for (let i = 0; i < 100; i++) {
         newStars.push({
           x: Math.random() * window.innerWidth,
           y: Math.random() * window.innerHeight,
@@ -56,7 +55,8 @@ const StarField = () => {
     setStars((prevStars) =>
       prevStars.map((star) => ({
         ...star,
-        y: (star.y + star.speed) % window.innerWidth,
+        y: (star.y + star.speed) % window.innerHeight,
+
       }))
     );
 

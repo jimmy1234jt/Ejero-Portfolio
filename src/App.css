@@ -4,23 +4,28 @@
     box-sizing: border-box;
 }
 
+
+
 .app {
     background-color: black;
+    height: 100%;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    min-width: 500px;
+    min-width: 320px;
+    
 }
 
 .wrapper {
     position: relative;
     width: 70vw;
-    min-width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .nav {
@@ -232,6 +237,46 @@
     .about h1 {
         font-size: 3rem;
     }
+    .wrapper{
+        width: 100%;
+    }
+    .top , .bottom{
+        display: none;
+    }
+    .nav, .content {
+        padding: 0 5px;
+    }
+    .social , .logo {
+        flex: 1;
+    }
+}
 
+@media (max-width: 380px) {
+    
+    .about h1{
+        font-size: 2rem;
+        padding: 10px 5px;
+    }
+    .about-text p{
+        font-size: 0.75rem;
+    }
+    .project-wrapper h2 {
+        font-size: 1.3rem;
+    }
+    .small-top {
+        width: 50px;
+    }
+    .project-list{
+        padding: 10px 15px; 
+    }
+    .project-item h4{
+        font-size: 0.9rem;
+    }
+    .logo-icon {
+        width: 50px;
+    }
+    .icon{
+        width: 20px;
+    }
     
 }
