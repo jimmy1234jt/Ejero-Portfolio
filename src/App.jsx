@@ -58,9 +58,9 @@ function App() {
             <div className='projects'>
               <img className='small-corner small-top' src={smalltop} alt=''/>
               <div className='project-list'>
-                <a href='/'>
+                <a href='https://beautiful-tulumba-62a41e.netlify.app/'>
                   <div className='project-item'>
-                    <h4>First Projects</h4>
+                    <h4>Mixy Treats Bakery website</h4>
                   </div>
                 </a>
                 <a href='/'>
