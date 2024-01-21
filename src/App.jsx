@@ -63,9 +63,9 @@ function App() {
                     <h4>Mixy Treats Bakery website</h4>
                   </div>
                 </a>
-                <a href='/'>
+                <a href='https://moonlit-croissant-3ffa53.netlify.app/'>
                   <div className='project-item'>
-                    <h4>First Projects jkkjbvjklvja</h4>
+                    <h4>Shopify admin clone</h4>
                   </div>
                 </a>
                 <a href='/'>
