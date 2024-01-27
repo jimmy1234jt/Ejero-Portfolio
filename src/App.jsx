@@ -68,12 +68,12 @@ function App() {
                     <h4>Shopify admin clone</h4>
                   </div>
                 </a>
-                <a href='/'>
+                <a href='https://bespoke-lily-7ca12d.netlify.app/'>
                   <div className='project-item'>
-                    <h4>Weather app</h4>
+                    <h4>Simple Login/Sign up page</h4>
                   </div>
                 </a>
-                <a href='/'>
+                {/* <a href='/'>
                   <div className='project-item'>
                     <h4>Shopify guide clone</h4>
                   </div>
@@ -82,7 +82,7 @@ function App() {
                   <div className='project-item'>
                     <h4>login page Projects</h4>
                   </div>
-                </a>
+                </a> */}
               </div>
 
             </div>
