@@ -50,7 +50,7 @@ function App() {
           <div className='about'>
             <h1>Welcome</h1>
             <div className='about-text'>
-              <p>My name is <span>Ejero Promise Odafewomoni</span>. I am a <span>frontend developer</span> based in Nigeria with a focus on creating seamless and visually appealing user experiences. My expertise lies in leveraging the power of <span>React.js</span>, <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span> to build <span>responsive</span> and <span>dynamic</span> web applications.</p>
+              <p>My name is <span>Ejero Promise Odafewomoni</span>. I am a <span>frontend developer/ Shopify developer</span> based in Nigeria with a focus on creating seamless and visually appealing user experiences. My expertise lies in leveraging the power of <span>React.js</span>, <span>HTML</span>, <span>CSS</span> , and <span>JavaScript</span> to build <span>responsive</span> and <span>dynamic</span> web applications. I also work in <span>building and managing Shopify store</span>.</p>
             </div>
           </div>
           <div className='project-wrapper'>
@@ -61,6 +61,11 @@ function App() {
                 <a href='https://beautiful-tulumba-62a41e.netlify.app/'>
                   <div className='project-item'>
                     <h4>Mixy Treats Bakery website</h4>
+                  </div>
+                </a>
+                <a href='https://primeries.com/'>
+                  <div className='project-item'>
+                    <h4>Primeries Store (as a Shopify developer)</h4>
                   </div>
                 </a>
                 <a href='https://moonlit-croissant-3ffa53.netlify.app/'>
